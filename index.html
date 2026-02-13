@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayush Kumar | Software Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+  scroll-behavior:smooth;
+}
+
+section{
+  padding:60px 10%;
+}
+
+h1,h2,h3{
+  margin-bottom:20px;
+}
+
+h2{
+  font-size:32px;
+  text-align:center;
+  margin-bottom:40px;
+  background:linear-gradient(90deg,#00f5a0,#00d9f5);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.card{
+  background:rgba(255,255,255,0.08);
+  padding:25px;
+  border-radius:15px;
+  backdrop-filter:blur(10px);
+  margin-bottom:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.4);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+a{
+  color:#00f5a0;
+  text-decoration:none;
+  font-weight:600;
+}
+
+a:hover{
+  color:#00d9f5;
+}
+
+.hero{
+  text-align:center;
+  padding-top:100px;
+}
+
+.hero h1{
+  font-size:48px;
+}
+
+.hero p{
+  font-size:18px;
+  margin:20px 0;
+}
+
+.buttons a{
+  display:inline-block;
+  padding:12px 25px;
+  margin:10px;
+  border-radius:30px;
+  background:linear-gradient(90deg,#00f5a0,#00d9f5);
+  color:#000;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.buttons a:hover{
+  transform:scale(1.05);
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:20px;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  background:#111;
+  margin-top:50px;
+}
+
+@media(max-width:768px){
+  .hero h1{font-size:32px;}
+}
+
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Ayush Kumar</h1>
+  <p>Software Engineer @ PayU | Golang | Java | AWS | Kubernetes | Machine Learning | NITJSR’23</p>
+
+  <div class="buttons">
+    <a href="https://drive.google.com/file/d/1_BJfizj73Dkpc8w5yYLJzdKNIeBP05Of/view" target="_blank">Resume</a>
+    <a href="https://www.linkedin.com/in/ayush-kumar-811b96210/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/AK2555" target="_blank">GitHub</a>
+    <a href="https://www.geeksforgeeks.org/user/wxyzpl/" target="_blank">GeeksforGeeks</a>
+    <a href="https://www.hackerrank.com/profile/ayushhzb13" target="_blank">HackerRank 5★</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section>
+<h2>About Me</h2>
+<div class="card">
+Backend Software Engineer with 3+ years of experience building scalable fintech microservices using Golang & Java (Spring Boot).  
+Designed distributed systems on AWS & Kubernetes (EKS) handling 2500+ TPS with 99.99% uptime.  
+Improved performance by 40% and reduced infra cost by 50%.
+</div>
+</section>
+
+<!-- SKILLS -->
+<section>
+<h2>Skills</h2>
+<div class="grid">
+
+<div class="card"><b>Programming:</b> Golang, Java, C, C++, Python</div>
+<div class="card"><b>Frameworks:</b> Spring Boot, ReactJS, Redux, JUnit, Mockito, TestNG, RestAssured</div>
+<div class="card"><b>Cloud & DevOps:</b> AWS (S3, Lambda, EKS, Secrets Manager), Docker, Kubernetes, Jenkins, CI/CD</div>
+<div class="card"><b>Databases:</b> MySQL, Redis</div>
+<div class="card"><b>Observability:</b> OpenSearch, Kibana, Grafana, Fluent Bit, Sentry</div>
+<div class="card"><b>Testing:</b> k6, Unit, Integration & Regression Testing</div>
+<div class="card"><b>Core Concepts:</b> Microservices, Distributed Systems, REST APIs, System Design, Scalability</div>
+<div class="card"><b>Tools:</b> IntelliJ IDEA, VS Code, Postman, Git, GitLab, Cursor Agent</div>
+
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Software Engineer – PayU (Apr 2025 – Present)</h3>
+<ul>
+<li>Migrated microservices from EC2 to Kubernetes (EKS) for HA & horizontal scaling.</li>
+<li>Built S3 + Lambda (Golang) pipeline publishing configs to Redis.</li>
+<li>Secure secret management via AWS Secrets Manager.</li>
+<li>Migrated logging to OpenSearch using Fluent Bit → reduced cost 50%.</li>
+<li>Integrated Sentry for real-time monitoring.</li>
+<li>Developed Tiered Loyalty Module (Java, Spring Boot, MySQL).</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Associate Software Engineer – PayU (Jul 2023 – Apr 2025)</h3>
+<ul>
+<li>Performance tested 2500+ TPS using k6 with 99.99% uptime.</li>
+<li>Built workflow engine integrating UPI, Wallet, Card PG.</li>
+<li>Implemented AES, RSA, ECIES, ECDSA cryptography.</li>
+<li>Designed Grafana & Kibana dashboards → reduced issue resolution time 40%.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Software Engineer Intern – PayU (Jan 2023 – Jun 2023)</h3>
+<ul>
+<li>Boosted test coverage to 90% (Golang unit tests).</li>
+<li>Built Java regression automation suite.</li>
+<li>Developed ReactJS workflow configuration generator UI.</li>
+</ul>
+</div>
+
+</section>
+
+<!-- PROJECT -->
+<section>
+<h2>Project</h2>
+<div class="card">
+<h3>E-Commerce Hub</h3>
+Microservices-based e-commerce platform using Spring Boot & ReactJS.  
+Implemented JWT authentication, RBAC, Stripe payment integration, and scalable order management.
+</div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section>
+<h2>Certifications</h2>
+<div class="card">
+<h3>Machine Learning Specialization – Coursera (Andrew Ng)</h3>
+Built supervised, unsupervised & neural network models using Python, NumPy, Pandas & TensorFlow.
+<br><br>
+<a href="https://drive.google.com/file/d/16wgYXiFvE_P2sSXvYSUG5uShlOIDTCg9/view" target="_blank">ML Certificate 1</a><br>
+<a href="https://drive.google.com/file/d/1RUY89wEiIpmx4c-t4khMpXP9im7MLqiI/view" target="_blank">ML Certificate 2</a><br>
+<a href="https://drive.google.com/file/d/1iwIas2Plg3KS0v4ty9PDibyRESaN61LC/view" target="_blank">ML Certificate 3</a>
+</div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section>
+<h2>Achievements</h2>
+<div class="grid">
+
+<div class="card">
+ThankU Award – Act Like an Owner at PayU  
+<br><a href="https://drive.google.com/file/d/1jAMxqDCoX84QYXbjKE_HtjMjS5IBML7n/view" target="_blank">View</a>
+</div>
+
+<div class="card">
+Hack@PayU 2024 Finalist – Event tracking system  
+<br><a href="https://drive.google.com/file/d/1LA1TOFCq1bgpHNNgRwix16WUE6E6TFKW/view" target="_blank">View</a>
+</div>
+
+<div class="card">
+Institute Rank 23 – GeeksforGeeks  
+<br><a href="https://www.geeksforgeeks.org/user/wxyzpl/" target="_blank">Profile</a>
+</div>
+
+<div class="card">
+5★ Problem Solving – HackerRank  
+<br><a href="https://www.hackerrank.com/profile/ayushhzb13" target="_blank">Profile</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Ayush Kumar | Built with HTML & CSS
+</footer>
+
+</body>
+</html>
